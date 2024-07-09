@@ -15,6 +15,21 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
 .color-2{
     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
+.color-3{
+    border-radius: 16px;
+
+background: rgba(255, 76, 30, 0.05);
+}
+.color-4{
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+}
+.color-5{
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+}
 
 /* header styles */
 .header{
@@ -178,5 +193,68 @@ background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
+
+}
+
+/* target section style */
+
+.target{
+    margin: 0px 150px 112px;
+    
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.target-subtitle{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+margin: 24px auto 49px;
+width: 852px;
+text-align: center;
+}
+.target-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.target-skill{
+    padding: 40px;
+}
+
+.target-skill h3{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+margin: 24px 0px 8px;
+}
+
+.target-skill p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+margin-bottom: 24px;
+}
+.target-skill a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-decoration-line: underline;
 
 }
