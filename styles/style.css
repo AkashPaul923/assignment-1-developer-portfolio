@@ -126,10 +126,10 @@ background: rgba(255, 223, 0, 0.05);
     justify-content: center;
     align-items: center;
     border-radius: 16px;
-    border-radius: 16px;
     padding: 48px;
     gap: 99px;
     margin-bottom: 32px;
+    text-align: left;
 }
 .why-description-title{
     color: rgba(13, 19, 33, 0.7);
@@ -138,7 +138,7 @@ background: rgba(255, 223, 0, 0.05);
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    width: 390px;
+    /* width: 390px; */
 }
 .why-description-subtitle{
     color: rgb(13, 19, 33);
@@ -261,7 +261,70 @@ letter-spacing: 0%;
 text-decoration-line: underline;
 
 }
+/* next target section */
+.next-target{
+    margin: 0 150px;
+    text-align: center;
+}
+.next-target-title{
+    color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
 
+}
+.next-title-subtitle{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+opacity: 0.7;
+width: 852px;
+margin: 24px auto 48px;
+}
+.next-target-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.next-target-contant{
+    text-align: left;
+}
+.next-target-contant-title{
+    color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+
+}
+.next-target-contant-subtitle{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: justify;
+opacity: 0.7;
+margin: 8px 0px 24px;
+
+}
+.next-target-contant a{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-decoration-line: underline;
+}
 
 /* support section style */
 
